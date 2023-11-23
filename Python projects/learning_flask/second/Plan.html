@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Plan</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Plan:</h2>
+<hr>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Side menu</h2>
+    <p>All the different pages</p>
+    <ul>
+      <li>Games</li>
+      <li>Stats</li>
+      <li>Hall of famers</li>
+    </ul>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>Content</h2>
+    <p>49er shit</p>
+  </div>
+</div>
+
+</body>
+</html>
